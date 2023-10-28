@@ -25,6 +25,28 @@ body {
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 0px 20px;
+    height: 79px;
+}
+
+.main-logo{
+    height: 19px;
+    width: 61.09px;
+}
+
+.hebergements-and-activites{
+    padding: 0px 20px 20px 20px;
+}
+
+.hebergements-and-activites:hover{
+    border-top: 2px #0065FC solid;
+    color: #0065FC ;
+    padding-top: 16px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
