@@ -296,8 +296,36 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activites ***********/
 
+.activites{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
 
+.container-activites{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container-activites a{
+    display: flex ;
+}
+
+.activites-card{
+    height: 420px;
+    width: 100%;
+}
+
+.container-activites img{
+    height: 85%;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
