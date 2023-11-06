@@ -184,6 +184,20 @@ a {
     font-size: 16px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    min-width: 600px;
+}
+
+.footer-text{
+    height: 100%;
+    width: 25%;
+    margin-left: 20px;
+    min-width: 180px;
+}
+
 .euro {
     font-weight: 700;
 }
